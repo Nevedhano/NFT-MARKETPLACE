@@ -1,0 +1,39 @@
+.mint-nft-container {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.mint-nft-container h2 {
+    margin-bottom: 20px;
+}
+
+.mint-nft-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.mint-nft-container button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.mint-nft-container button:disabled {
+    background: #ccc;
+}
+
+.mint-nft-container .error {
+    color: red;
+    margin-bottom: 10px;
+}
